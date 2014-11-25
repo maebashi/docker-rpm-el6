@@ -6,11 +6,11 @@
 %global debug_package %{nil}
 
 %global import_path github.com/docker/docker
-%global commit      4e9bbfa90054cd730e81b53b2de67a74306afc95
+%global commit      39fa2faad2f3d6fa5133de4eb740677202f53ef4
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 
 Name:           docker-io
-Version:        1.3.1
+Version:        1.3.2
 Release:        1%{?dist}
 Summary:        Automates deployment of containerized applications
 License:        ASL 2.0
